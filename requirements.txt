@@ -1,0 +1,5 @@
+openai
+streamlit
+streamlit-gsheets-connection
+pandas
+python-dateutil
