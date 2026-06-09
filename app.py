@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from openai import OpenAI
 
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+client = OpenAI(api_key="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")
 
 st.set_page_config(page_title="Hotel Assistant Pro", layout="centered")
 st.title("🏨 Hotel Assistant Pro")
