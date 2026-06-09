@@ -18,15 +18,7 @@ st.markdown("### 📂 Δεδομένα από Google Sheet")
 "https://docs.google.com/spreadsheets/d/11_KBJd6ua6FltmplT0fIEbwu0Yb3l6XgNyBaVLkqHw0/edit?gid=0#gid=0"  # Αντικατέστησε με το πραγματικό ID σου
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-CSV_URL = f"https://drive.google.com/uc?id={SHEET_ID}"
 
-try:
-    df = pd.read_csv(CSV_URL)
-    st.success(f"✅ Συνδέθηκε! Βρέθηκαν {len(df)} δωμάτια.")
-    st.dataframe(df)
-except Exception as e:
-    st.error(f"Σφάλμα σύνδεσης: {e}")
-    st.stop()
 
 # --- Δημιουργία κειμένου για το AI ---
 hotel_data_full = "ΠΑΡΑΚΑΤΩ ΕΙΝΑΙ ΟΛΑ ΤΑ ΔΕΔΟΜΕΝΑ ΤΟΥ ΞΕΝΟΔΟΧΕΙΟΥ:\n"
