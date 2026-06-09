@@ -14,7 +14,7 @@ st.divider()
 st.markdown("### 📂 Δεδομένα από Google Sheet")
 
 # >>>>>>>>>>>>>>>>>>>>>>> ΕΔΩ ΒΑΛΕ ΤΟ LINK ΣΟΥ <<<<<<<<<<<<<<<<<<<<<
-SHEET_URL = "https://docs.google.com/spreadsheets/d/https://docs.google.com/spreadsheets/d/11_KBJd6ua6FltmplT0fIEbwu0Yb3l6XgNyBaVLkqHw0/edit?usp=sharing/edit#gid=0"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/https://docs.google.com/spreadsheets/d/11_KBJd6ua6FltmplT0fIEbwu0Yb3l6XgNyBaVLkqHw0/export?format=csv"
 # Αντικατέστησε το "ΤΟ-ID-ΣΟΥ" με το πραγματικό ID από το link που αντέγραψες
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
