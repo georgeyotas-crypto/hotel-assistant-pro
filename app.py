@@ -15,7 +15,7 @@ st.divider()
 st.markdown("### 📂 Δεδομένα από Google Sheet")
 
 # >>>>>>>>>>>>>>>>>>>>>>> ΕΔΩ ΒΑΛΕ ΤΟ ID ΤΟΥ SHEET ΣΟΥ <<<<<<<<<<<<<<<<<<<<<
-https://docs.google.com/spreadsheets/d/11_KBJd6ua6FltmplT0fIEbwu0Yb3l6XgNyBaVLkqHw0/edit?gid=0#gid=0  # Αντικατέστησε με το πραγματικό ID σου
+"https://docs.google.com/spreadsheets/d/11_KBJd6ua6FltmplT0fIEbwu0Yb3l6XgNyBaVLkqHw0/edit?gid=0#gid=0"  # Αντικατέστησε με το πραγματικό ID σου
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 CSV_URL = f"https://drive.google.com/uc?id={SHEET_ID}"
